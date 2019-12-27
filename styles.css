@@ -23,12 +23,13 @@ font-weight: bolder;
 .head-center
 {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5%;
 }
 #top
 {
-background-color: #FFD5ED;
+background-color: #bfe1ff;
 padding: 5px;
+margin-top: 0;
 }
 .top-float
 {
@@ -40,6 +41,10 @@ padding: 5px;
   padding: 0 2% 0 0;
   font-size: small;
 }
+.four-style{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
 .top-right{
   float: right;
 
@@ -49,7 +54,8 @@ padding: 5px;
   padding: 10px;
 }
 #second{
-background-image: linear-gradient(to bottom, #fba0d4, #f9aedc, #f7bce3, #f5c9e9, #f4d6ee, #f4d6ee, #f4d6ee, #f4d6ee, #f5c9e9, #f7bce3, #f9aedc, #fba0d4);
+  background-image: url("qw.jpg");
+/* background-image: linear-gradient(to bottom, #fba0d4, #f9aedc, #f7bce3, #f5c9e9, #f4d6ee, #f4d6ee, #f4d6ee, #f4d6ee, #f5c9e9, #f7bce3, #f9aedc, #fba0d4); */
 }
 .second-para{
   margin-left: 40%;
@@ -108,6 +114,7 @@ margin-bottom: 0;
   text-align: center;
   line-height: 2;
   color: #32363b;
+  padding: 15px;
 }
 .foot-bold
 {
